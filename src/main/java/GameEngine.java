@@ -18,15 +18,11 @@ public class GameEngine {
         this.max = max;
         this.attempts = 0;
         this.gameWon = false;
-<<<<<<< HEAD
-
         this.userQuit = false;
-
         this.gameOver = false;
 
-=======
         this.hintsEnabled = true;
->>>>>>> d281779 (Add hint system to show proximity after 3 attempts)
+
         reset();
     }
 
