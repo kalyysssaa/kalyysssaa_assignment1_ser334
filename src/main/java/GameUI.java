@@ -13,6 +13,7 @@ public class GameUI {
 
         while (!engine.isGameWon() && !engine.hasUserQuit()) {
             System.out.print("Guess a number between " + engine.getMin() + " and " + engine.getMax() + " (or negative to exit): ");
+        }
 
         while (!engine.isGameWon() && !engine.isGameOver()) {
             System.out.print("Guess a number between " + engine.getMin() + " and " + engine.getMax() + ": ");
